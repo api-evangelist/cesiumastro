@@ -1,8 +1,26 @@
 aid: cesiumastro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cesiumastro.png
 name: CesiumAstro
-description: 'CesiumAstro is a company surfaced as a portfolio company of kleiner-perkins and added to
-  the API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CesiumAstro designs, manufactures, and tests full-stack communication
+  systems and satellites for space, air, and ground missions. The Austin, Texas company,
+  founded in 2017, builds active phased array payloads (Vireo), software-defined radios
+  (SDR-1001/2051/2104/3104), reconfigurable processing units, SATCOM terminals (Skylark),
+  tactical ISR/PNT payloads (Nightingale), and the integrated Element LEO satellite
+  platform. Its hardware enables inter-satellite links, high-speed downlinks, lunar
+  communications, and 5G non-terrestrial networks. CesiumAstro publishes no public
+  developer API, SDK, or documentation portal; this profile tracks the company as an
+  aerospace hardware provider in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/cesiumastro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Hardtech
+- Aerospace
+- Satellite
+- Communications
+- Phased Array
+- Software-Defined Radio
+- Space
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.cesiumastro.com
+- type: About
+  url: https://www.cesiumastro.com/about
+- type: Blog
+  url: https://www.cesiumastro.com/newsroom
+- type: Support
+  url: https://www.cesiumastro.com/contact
+- type: GitHubOrganization
+  url: https://github.com/CesiumAstro
+- type: PrivacyPolicy
+  url: https://www.cesiumastro.com/privacy-policy
+- type: TermsOfService
+  url: https://www.cesiumastro.com/terms-and-conditions
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
